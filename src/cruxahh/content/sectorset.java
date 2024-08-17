@@ -1,19 +1,15 @@
 package cruxahh.content;
 
-
 import mindustry.type.*;
 
-
 import static mindustry.content.Planets.*;
-
 
 public class sectorset{
     public static SectorPreset
     facility32M,depositedBay,atolls,frigidTundra,taintedWoods,iceboundTributary,sporch,stormingSummit,
-    scoutFront,sunkenPier;
+    scoutFront,sunkenPier,bombardmentWarzone;
 
 
-	
     public static void load(){
         //region serpulo
         facility32M = new SectorPreset("facility32M", serpulo, 170){{
@@ -63,9 +59,14 @@ public class sectorset{
         }};
 
 
-        sunkenPier = new SectorPreset("sunkenPier", serpulo, 111){{
+        sunkenPier = new SectorPreset("sunkenPier", serpulo, 3){{
 	    captureWave = 50;
             difficulty = 8;
+        }};
+	
+	bombardmentWarzone = new SectorPreset("bombardmentWarzone", serpulo, 228){{
+	    captureWave = 145;
+            difficulty = 12;
         }};
         //endregion
     }
