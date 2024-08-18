@@ -23,7 +23,7 @@ import static mindustry.Vars.*;
 
 
 /** A small section of a planet. */
-public class sector{
+public class Sector{
     private static final Seq<Sector> tmpSeq1 = new Seq<>();
 
 
@@ -44,7 +44,7 @@ public class sector{
     public boolean generateEnemyBase;
 
 
-    public sector(Planet planet, Ptile tile){
+    public Sector(Planet planet, Ptile tile){
         this.planet = planet;
         this.tile = tile;
         this.plane = new Plane();
