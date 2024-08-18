@@ -2,8 +2,6 @@ package cruxahh.content;
 
 import cruxahh.type.*;
 
-import mindustry.type.*;
-
 import static mindustry.content.Planets.*;
 
 public class sectorset{
