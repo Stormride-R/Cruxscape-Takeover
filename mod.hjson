@@ -17,7 +17,7 @@ description: "Serpulo but no generated number sectors."
 version: 0027
 
 #the minimum game build required to run this mod
-minGameVersion: 146
+minGameVersion: 141
 
 #this is a java mod
 java: true
