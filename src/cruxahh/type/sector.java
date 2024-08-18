@@ -19,7 +19,7 @@ import mindustry.world.modules.*;
 
 import static mindustry.Vars.*;
 
-public class Sector{
+public class sector{
 	
 	public String displayThreat(){
     float step = 0.125f;
