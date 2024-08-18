@@ -14,8 +14,8 @@ main: "cruxahh.cruxahh"
 description: "Serpulo but no generated number sectors."
 
 #the mod version
-version: 0027
-subtitle: "V0027"
+version: 0028
+subtitle: "V0028"
 
 #the minimum game build required to run this mod
 minGameVersion: 136
