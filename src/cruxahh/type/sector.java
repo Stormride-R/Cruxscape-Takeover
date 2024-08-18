@@ -44,7 +44,7 @@ public class sector{
     public boolean generateEnemyBase;
 
 
-    public Sector(Planet planet, Ptile tile){
+    public sector(Planet planet, Ptile tile){
         this.planet = planet;
         this.tile = tile;
         this.plane = new Plane();
