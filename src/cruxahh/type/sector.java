@@ -1,4 +1,4 @@
-package mindustry.type;
+package cruxahh.type;
 
 
 import arc.*;
