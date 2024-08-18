@@ -14,8 +14,8 @@ main: "cruxahh.cruxahh"
 description: "A mindustry mod that makes the Serpulo with every numbered sector replaced.(not now)"
 
 #the mod version
-version: 0028
-subtitle: "V0028"
+version: 0029
+subtitle: "V0029"
 
 #the minimum game build required to run this mod
 minGameVersion: 136
