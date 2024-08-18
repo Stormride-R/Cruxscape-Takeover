@@ -1,6 +1,7 @@
 package cruxahh.content;
 
 import mindustry.type.*;
+
 import cruxahh.type.*;
 
 import static mindustry.content.Planets.*;
