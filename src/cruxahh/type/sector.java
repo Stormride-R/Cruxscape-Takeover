@@ -18,6 +18,7 @@ import mindustry.ui.*;
 import mindustry.world.modules.*;
 
 import static mindustry.Vars.*;
+public float threat;
 
 public class sector{
 	
