@@ -16,11 +16,8 @@ public class cruxtechtree {
 
     public static void load() {
 	margeNode(SectorPresets.groundZero, () -> {
-            node(sectorset.firgidTundra
-	    ),() -> {
-			
-	    });
-    	}
+            node(sectorset.firgidTundra);
+	});
     }
 
 
