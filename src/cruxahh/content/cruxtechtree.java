@@ -15,15 +15,12 @@ public class cruxtechtree {
     public static TechNode context;
 
     public static void load() {
-        margeNode(SectorPresets.groundZero, () -> {
-            node(sectorset.firgidTundra, Seq.with(
-            new SectorComplete(groundZero),
-            new Research(underflowGate),
-            new Research(copperWallLarge)
-			),() -> {
+	margeNode(SectorPresets.groundZero, () -> {
+            node(sectorset.firgidTundra
+	    ),() -> {
 			
-			}
-		});
+			});
+    	}
     }
 
 
