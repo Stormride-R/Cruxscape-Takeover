@@ -1,5 +1,8 @@
 package cruxahh.content;
 
+import arc.struct.*;
+import mindustry.game.Objectives.*;
+
 import arc.struct.Seq;
 import mindustry.content.Blocks;
 import mindustry.content.SectorPresets;
@@ -17,10 +20,7 @@ public class cruxtechtree {
 
     public static void load() {
 	margeNode(SectorPresets.groundZero, () -> {
-            node(sectorset.frigidTundra,Seq.with(
-                new SectorComplete(groundZero),
-                new Research(copperWalllarge),
-                new Research(underflowGate));)
+            node(sectorset.frigidTundra,Seq.with(new SectorComplete(groundZero),new Research(copperWallLarge),new Research(underflowGate)));
 	});
     }
 
