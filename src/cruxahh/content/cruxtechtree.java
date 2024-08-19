@@ -1,6 +1,5 @@
 package cruxahh.content;
 
-
 import arc.struct.Seq;
 import mindustry.content.Blocks;
 import mindustry.content.Items;
@@ -10,13 +9,10 @@ import mindustry.game.Objectives;
 import mindustry.type.ItemStack;
 import mindustry.content.TechTree;
 
-
 import static mindustry.content.TechTree.*;
-
 
 public class cruxtechtree {
     public static TechNode context;
-
 
     public static void load() {
         margeNode(SectorPresets.groundZero, () -> {
