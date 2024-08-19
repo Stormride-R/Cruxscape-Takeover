@@ -22,7 +22,7 @@ public class cruxtechtree {
             new Research(copperWallLarge)
 			),() -> {
 			
-			});
+			}
 		});
     }
 
