@@ -15,7 +15,7 @@ public class cruxtechtree {
     public static TechNode context;
 
     public static void load() {
-	margeNode(SectorPresets.groundZero, () -> {
+	margeNode(SectorPreset.groundZero, () -> {
             node(sectorset.firgidTundra);
 	});
     }
