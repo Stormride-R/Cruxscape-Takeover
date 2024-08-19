@@ -1,6 +1,5 @@
 package cruxahh.content;
 
-import arc.struct.*;
 import mindustry.game.Objectives.*;
 
 import arc.struct.Seq;
