@@ -17,7 +17,10 @@ public class cruxtechtree {
 
     public static void load() {
 	margeNode(SectorPresets.groundZero, () -> {
-            node(sectorset.frigidTundra);
+            node(sectorset.frigidTundra,Seq.with(
+                new SectorComplete(groundZero),
+                new Research(copperWalllarge),
+                new Research(underflowGate));
 	});
     }
 
