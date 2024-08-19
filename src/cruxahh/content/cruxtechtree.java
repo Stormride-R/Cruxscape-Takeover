@@ -20,7 +20,7 @@ public class cruxtechtree {
             node(sectorset.frigidTundra,Seq.with(
                 new SectorComplete(groundZero),
                 new Research(copperWalllarge),
-                new Research(underflowGate));
+                new Research(underflowGate));)
 	});
     }
 
