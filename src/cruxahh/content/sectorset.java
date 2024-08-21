@@ -7,7 +7,8 @@ import static mindustry.content.Planets.*;
 public class sectorset{
     public static SectorPreset
     facility32M,depositedBay,atolls,frigidTundra,taintedWoods,iceboundTributary,sporch,stormingSummit,
-    scoutFront,sunkenPier,bombardmentWarzone;
+    scoutFront,sunkenPier,bombardmentWarzone,erodedSierra,
+    remnant0025,jut;
 
 
     public static void load(){
@@ -67,6 +68,21 @@ public class sectorset{
 	bombardmentWarzone = new SectorPreset("bombardmentWarzone", serpulo, 228){{
 	    captureWave = 145;
             difficulty = 12;
+        }};
+
+	erodedSierra = new SectorPreset("erodedSierra", serpulo, 100){{
+	    captureWave = 25;
+            difficulty = 10;
+        }};
+
+	remnant0025 = new SectorPreset("remnant0025", serpulo, 94){{
+	    captureWave = 30;
+            difficulty = 10;
+        }};
+
+	jut = new SectorPreset("jut", serpulo, 33){{
+	    captureWave = 101;
+            difficulty = 10;
         }};
         //endregion
     }
