@@ -25,7 +25,10 @@ public class cruxtechtree {
     public static void load(){
         nodeRoot("Cruxscape-serpulo", coreShard, false, () -> {
             //Above the skies is the currently the placeholder for now, the required sector will changes later.
-            node(sectorset.frigidTundra, Seq.with(new SectorComplete(groundZero)), () -> {
-	});
-    });
-}
+            node(sectorset.frigidTundra, Seq.with(
+            new SectorComplete(groundZero)
+	    ), () -> {
+	    });
+   	 });
+    };
+};
