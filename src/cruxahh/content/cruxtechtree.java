@@ -27,5 +27,5 @@ public class cruxtechtree {
             //Above the skies is the currently the placeholder for now, the required sector will changes later.
             node(sectorset.frigidTundra, Seq.with(new SectorComplete(groundZero)), () -> {
 	});
-    };
+    });
 };
