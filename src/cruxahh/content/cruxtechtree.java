@@ -1,6 +1,5 @@
 package cruxahh.content;
 
-
 import arc.*;
 import arc.util.*;
 import mindustry.*;
