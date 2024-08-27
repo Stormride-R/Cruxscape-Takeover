@@ -20,6 +20,7 @@ public class cruxahh extends Mod{
     public void loadContent(){
         Log.info("DIEDIEDIEDIEDIE");
         sectorset.load();
+        cruxtechtree.load();
     }
 
 }
