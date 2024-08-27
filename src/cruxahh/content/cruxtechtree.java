@@ -15,7 +15,6 @@ import mindustry.content.TechTree;
 import mindustry.game.Objectives.*;
 import mindustry.type.ItemStack;
 import cruxahh.content.*;
-import cruxahh.content.blocks.*;
 import static mindustry.content.Blocks.*;
 import static mindustry.content.TechTree.*;
 import static mindustry.content.UnitTypes.*;
