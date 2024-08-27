@@ -28,4 +28,4 @@ public class cruxtechtree {
             node(sectorset.frigidTundra, Seq.with(new SectorComplete(groundZero)), () -> {
 	});
     });
-};
+}
