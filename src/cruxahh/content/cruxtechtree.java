@@ -25,7 +25,7 @@ public class cruxtechtree {
         nodeRoot("Cruxscape-serpulo", coreShard, false, () -> {
             node(sectorset.frigidTundra, Seq.with(
             new SectorComplete(groundZero),
-	    new Research(copperWallLarge),
+      	    new Research(copperWallLarge),
             new Research(underflowGate)
 	    ), () -> {
 	    });
@@ -34,5 +34,4 @@ public class cruxtechtree {
 	    ), () -> {
 	    });
    	 });
-    };
-};
+    }};
