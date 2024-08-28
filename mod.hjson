@@ -23,6 +23,6 @@ minGameVersion: 136
 #this is a java mod
 java: true
 
-hidden: true
+hidden: false
 
 repo: Stormride-R/Cruxscape-Takeover
