@@ -28,12 +28,11 @@ public class cruxtechtree {
 	    new Research(copperWallLarge),
             new Research(underflowGate)
 	    ), () -> {
-	    };
+	    });
             node(sectorset.facility32M, Seq.with(
             new Research(pneumaticDrill)
 	    ), () -> {
-	    };
-	    );
+	    });
    	 });
     };
 };
