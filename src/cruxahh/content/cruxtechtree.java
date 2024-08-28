@@ -23,10 +23,8 @@ import static mindustry.content.SectorPresets.*;
 public class cruxtechtree {
     public static void load(){
         nodeRoot("Cruxscape-serpulo", coreShard, false, () -> {
-            node(sectorset.frigidTundra, Seq.with(
-            new SectorComplete(groundZero)
-	    ), () -> {
-	    });
+            node(sectorset.frigidTundra, Seq.with(new SectorComplete(groundZero)), () -> {
+                
+        });
    	 });
-    };
-};
+    }};
